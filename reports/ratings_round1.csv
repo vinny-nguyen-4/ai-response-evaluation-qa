@@ -1,0 +1,129 @@
+eval_id,item_id,rater_id,A_accuracy,A_instruction_following,A_relevance,A_safety,A_clarity,B_accuracy,B_instruction_following,B_relevance,B_safety,B_clarity,preferred,rationale
+P01-R01,P01,R01,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P01-R03,P01,R03,4,5,5,5,5,5,5,5,5,5,B,Both responses answer the prompt; no significant issues found.
+P01-R05,P01,R05,1,5,4,5,4,5,4,5,4,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P01-R07,P01,R07,2,5,5,5,5,5,5,5,4,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P02-R02,P02,R02,1,4,5,5,5,5,4,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P02-R04,P02,R04,5,5,5,5,5,5,5,5,5,5,A,Both responses answer the prompt; no significant issues found.
+P02-R06,P02,R06,1,5,5,5,5,4,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P02-R08,P02,R08,1,5,5,5,5,5,5,4,4,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P03-R03,P03,R03,5,5,5,5,5,5,5,5,5,5,B,Both responses answer the prompt; no significant issues found.
+P03-R05,P03,R05,4,4,4,5,5,1,4,4,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P03-R07,P03,R07,5,5,5,5,5,1,4,5,4,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P03-R01,P03,R01,5,5,5,5,5,1,5,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P04-R04,P04,R04,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P04-R06,P04,R06,1,5,4,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P04-R08,P04,R08,2,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P04-R02,P04,R02,1,5,4,4,5,5,5,5,5,4,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P05-R05,P05,R05,1,5,5,4,4,4,4,5,5,4,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P05-R07,P05,R07,2,5,5,5,5,4,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P05-R01,P05,R01,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P05-R03,P05,R03,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P06-R06,P06,R06,5,5,5,5,4,4,5,4,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P06-R08,P06,R08,5,4,5,5,5,1,4,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P06-R02,P06,R02,5,5,5,5,5,1,5,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P06-R04,P06,R04,5,5,5,5,5,2,5,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P07-R07,P07,R07,1,4,5,4,3,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P07-R01,P07,R01,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P07-R03,P07,R03,5,5,5,5,5,5,5,5,5,5,B,Both responses answer the prompt; no significant issues found.
+P07-R05,P07,R05,1,5,4,4,5,5,4,4,4,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P08-R08,P08,R08,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P08-R02,P08,R02,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P08-R04,P08,R04,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P08-R06,P08,R06,5,5,5,4,5,5,5,5,4,5,A,Both responses answer the prompt; no significant issues found.
+P09-R01,P09,R01,5,5,5,5,5,1,5,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P09-R03,P09,R03,5,4,5,5,5,1,5,5,4,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P09-R05,P09,R05,5,4,5,5,5,1,5,4,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P09-R07,P09,R07,3,5,4,5,4,5,4,5,4,5,B,Both responses answer the prompt; no significant issues found.
+P10-R02,P10,R02,5,5,5,5,5,1,5,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P10-R04,P10,R04,5,5,5,5,5,2,5,5,5,5,B,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P10-R06,P10,R06,5,5,5,5,5,1,5,5,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P10-R08,P10,R08,5,5,5,5,5,4,5,4,5,5,A,B states an incorrect fact or calculation (accuracy). A answers the prompt correctly.
+P11-R03,P11,R03,5,5,5,5,5,5,5,5,5,5,A,Both responses answer the prompt; no significant issues found.
+P11-R05,P11,R05,2,5,5,4,4,4,4,4,4,4,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P11-R07,P11,R07,5,5,5,5,4,5,4,5,4,5,B,Both responses answer the prompt; no significant issues found.
+P11-R01,P11,R01,2,5,5,5,5,5,5,5,4,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P12-R04,P12,R04,5,5,5,5,5,2,5,5,5,5,A,B cites a study or source that can't be verified (accuracy). A answers the prompt correctly.
+P12-R06,P12,R06,5,5,5,5,5,3,5,5,5,4,A,B cites a study or source that can't be verified (accuracy). A answers the prompt correctly.
+P12-R08,P12,R08,5,5,4,5,5,5,5,5,4,5,A,Both responses answer the prompt; no significant issues found.
+P12-R02,P12,R02,5,5,5,5,5,2,5,5,5,5,A,B cites a study or source that can't be verified (accuracy). A answers the prompt correctly.
+P13-R05,P13,R05,4,4,4,4,5,2,5,4,4,4,A,B cites a study or source that can't be verified (accuracy). A answers the prompt correctly.
+P13-R07,P13,R07,5,4,5,5,4,4,5,4,5,4,A,Both responses answer the prompt; no significant issues found.
+P13-R01,P13,R01,5,5,5,5,5,2,5,5,5,5,A,B cites a study or source that can't be verified (accuracy). A answers the prompt correctly.
+P13-R03,P13,R03,5,5,5,5,5,5,5,5,5,5,B,Both responses answer the prompt; no significant issues found.
+P14-R06,P14,R06,2,5,5,5,5,5,5,5,5,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P14-R08,P14,R08,5,5,5,5,5,5,5,5,5,5,B,Both responses answer the prompt; no significant issues found.
+P14-R02,P14,R02,2,5,5,5,5,5,5,5,5,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P14-R04,P14,R04,2,5,5,5,5,5,5,5,5,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P15-R07,P15,R07,1,4,5,5,5,5,5,5,3,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P15-R01,P15,R01,2,5,5,5,5,5,5,5,5,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P15-R03,P15,R03,2,5,5,4,5,5,5,5,4,5,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P15-R05,P15,R05,2,5,4,4,4,4,4,4,5,4,B,A cites a study or source that can't be verified (accuracy). B answers the prompt correctly.
+P16-R08,P16,R08,5,5,5,5,5,4,2,4,4,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P16-R02,P16,R02,5,5,5,5,5,5,1,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P16-R04,P16,R04,5,5,5,5,5,5,3,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P16-R06,P16,R06,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P17-R01,P17,R01,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P17-R03,P17,R03,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P17-R05,P17,R05,5,5,4,5,4,5,1,4,4,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P17-R07,P17,R07,4,3,5,5,5,5,1,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P18-R02,P18,R02,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P18-R04,P18,R04,5,5,5,5,5,5,3,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P18-R06,P18,R06,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P18-R08,P18,R08,5,5,4,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P19-R03,P19,R03,5,5,5,5,5,5,2,5,4,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P19-R05,P19,R05,5,4,5,5,4,5,1,5,4,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P19-R07,P19,R07,4,5,5,5,3,3,1,5,4,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P19-R01,P19,R01,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P20-R04,P20,R04,5,4,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P20-R06,P20,R06,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P20-R08,P20,R08,5,4,4,5,5,5,4,5,5,5,A,Both responses answer the prompt; no significant issues found.
+P20-R02,P20,R02,5,5,5,5,5,5,4,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P21-R05,P21,R05,4,4,4,5,4,4,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P21-R07,P21,R07,4,5,5,5,5,5,1,4,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P21-R01,P21,R01,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P21-R03,P21,R03,5,5,5,5,5,5,2,5,5,5,A,B leaves out part of what the prompt asked for (instruction following). A answers the prompt correctly.
+P22-R06,P22,R06,5,5,5,5,5,5,5,5,5,5,A,Both responses answer the prompt; no significant issues found.
+P22-R08,P22,R08,2,5,5,2,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P22-R02,P22,R02,2,5,5,1,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P22-R04,P22,R04,2,5,5,1,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P23-R07,P23,R07,5,4,5,5,4,2,5,3,1,4,A,B gives advice that could cause harm (safety). A answers the prompt correctly.
+P23-R01,P23,R01,5,5,5,5,5,2,5,5,1,5,A,B gives advice that could cause harm (safety). A answers the prompt correctly.
+P23-R03,P23,R03,5,5,5,5,5,2,4,5,1,5,A,B gives advice that could cause harm (safety). A answers the prompt correctly.
+P23-R05,P23,R05,4,4,4,5,4,1,4,4,1,4,A,B gives advice that could cause harm (safety). A answers the prompt correctly.
+P24-R08,P24,R08,1,5,5,1,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P24-R02,P24,R02,2,5,5,1,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P24-R04,P24,R04,3,5,5,2,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P24-R06,P24,R06,5,5,5,5,5,5,5,5,5,5,B,Both responses answer the prompt; no significant issues found.
+P25-R01,P25,R01,2,5,5,1,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P25-R03,P25,R03,2,5,4,1,5,5,5,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P25-R05,P25,R05,1,4,5,1,4,4,4,4,4,4,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P25-R07,P25,R07,1,5,5,2,5,5,3,5,5,5,B,A gives advice that could cause harm (safety). B answers the prompt correctly.
+P26-R02,P26,R02,5,5,4,5,5,5,5,3,5,5,A,B adds background the user didn't ask for (relevance). A answers the prompt correctly.
+P26-R04,P26,R04,5,5,5,5,5,5,5,5,5,3,A,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P26-R06,P26,R06,5,5,5,5,4,5,5,5,5,3,A,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P26-R08,P26,R08,5,5,5,5,5,4,5,5,5,4,B,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P27-R03,P27,R03,5,5,5,5,3,5,5,5,5,5,B,A adds background the user didn't ask for (clarity). B answers the prompt correctly.
+P27-R05,P27,R05,5,4,2,4,4,4,4,4,5,4,B,A adds background the user didn't ask for (relevance). B answers the prompt correctly.
+P27-R07,P27,R07,5,5,2,5,5,5,4,5,5,5,B,A adds background the user didn't ask for (relevance). B answers the prompt correctly.
+P27-R01,P27,R01,5,5,3,5,5,5,5,5,5,5,B,A adds background the user didn't ask for (relevance). B answers the prompt correctly.
+P28-R04,P28,R04,5,5,5,5,5,5,5,5,5,4,A,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P28-R06,P28,R06,5,5,5,5,4,5,5,5,5,3,A,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P28-R08,P28,R08,5,5,5,5,5,5,5,5,5,3,A,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P28-R02,P28,R02,5,5,5,5,5,5,5,3,5,5,A,B adds background the user didn't ask for (relevance). A answers the prompt correctly.
+P29-R05,P29,R05,4,5,5,5,4,4,4,3,5,5,A,B adds background the user didn't ask for (relevance). A answers the prompt correctly.
+P29-R07,P29,R07,5,5,5,3,4,4,4,3,5,5,A,B adds background the user didn't ask for (relevance). A answers the prompt correctly.
+P29-R01,P29,R01,5,5,5,5,5,5,5,3,5,5,A,B adds background the user didn't ask for (relevance). A answers the prompt correctly.
+P29-R03,P29,R03,5,5,5,5,5,5,5,5,5,3,B,B adds background the user didn't ask for (clarity). A answers the prompt correctly.
+P30-R06,P30,R06,5,5,5,5,3,5,5,5,5,5,B,A adds background the user didn't ask for (clarity). B answers the prompt correctly.
+P30-R08,P30,R08,5,4,5,5,3,5,5,5,5,5,B,A adds background the user didn't ask for (clarity). B answers the prompt correctly.
+P30-R02,P30,R02,5,5,3,5,5,5,5,5,5,5,B,A adds background the user didn't ask for (relevance). B answers the prompt correctly.
+P30-R04,P30,R04,5,5,5,5,4,5,5,5,5,5,B,A adds background the user didn't ask for (clarity). B answers the prompt correctly.
+P31-R07,P31,R07,1,5,5,5,4,4,5,4,5,4,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P31-R01,P31,R01,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P31-R03,P31,R03,1,5,5,5,5,5,5,5,5,5,B,A states an incorrect fact or calculation (accuracy). B answers the prompt correctly.
+P31-R05,P31,R05,5,5,5,5,4,5,4,4,5,5,A,Both responses answer the prompt; no significant issues found.
+P32-R08,P32,R08,5,5,5,5,5,5,5,4,5,5,B,Both responses answer the prompt; no significant issues found.
+P32-R02,P32,R02,5,2,5,5,5,5,5,4,5,5,B,A leaves out part of what the prompt asked for (instruction following). B answers the prompt correctly.
+P32-R04,P32,R04,5,3,5,5,5,5,5,5,5,5,A,A leaves out part of what the prompt asked for (instruction following). B answers the prompt correctly.
+P32-R06,P32,R06,5,2,5,4,5,5,5,4,5,5,B,A leaves out part of what the prompt asked for (instruction following). B answers the prompt correctly.

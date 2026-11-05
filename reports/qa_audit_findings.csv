@@ -1,0 +1,16 @@
+eval_id,item_id,rater_id,defect,check,severity,root_cause,guideline_fix
+P02-R04,P02,R04,factual_error,missed_defect,major,v1 has no step requiring reviewers to verify facts and math,Rule 1: verify before scoring Accuracy
+P02-R04,P02,R04,factual_error,wrong_preference,major,v1 doesn't tie the preferred response to the scores,Rule 5: score both responses first; the preferred one must score higher
+P03-R03,P03,R03,factual_error,missed_defect,major,v1 has no step requiring reviewers to verify facts and math,Rule 1: verify before scoring Accuracy
+P03-R03,P03,R03,factual_error,wrong_preference,major,v1 doesn't tie the preferred response to the scores,Rule 5: score both responses first; the preferred one must score higher
+P08-R06,P08,R06,factual_error,missed_defect,major,v1 has no step requiring reviewers to verify facts and math,Rule 1: verify before scoring Accuracy
+P08-R06,P08,R06,factual_error,wrong_preference,major,v1 doesn't tie the preferred response to the scores,Rule 5: score both responses first; the preferred one must score higher
+P12-R08,P12,R08,hallucinated_source,missed_defect,major,v1 doesn't say how to score a source that can't be verified,Rule 1 + Accuracy anchor: unverifiable source = Accuracy 2 or lower
+P13-R07,P13,R07,hallucinated_source,missed_defect,major,v1 doesn't say how to score a source that can't be verified,Rule 1 + Accuracy anchor: unverifiable source = Accuracy 2 or lower
+P26-R06,P26,R06,padding,misapplied_dimension,minor,v1 doesn't say whether padding is a Relevance or Clarity problem,Rule 2: padding is a Relevance problem
+P26-R08,P26,R08,padding,rationale_mismatch,minor,v1 doesn't require rationale and scores to agree,Rationale rule: every problem named must lower a score
+P26-R08,P26,R08,padding,wrong_preference,major,v1 doesn't tie the preferred response to the scores,Rule 5: score both responses first; the preferred one must score higher
+P29-R03,P29,R03,padding,wrong_preference,major,v1 doesn't tie the preferred response to the scores,Rule 5: score both responses first; the preferred one must score higher
+P29-R03,P29,R03,padding,misapplied_dimension,minor,v1 doesn't say whether padding is a Relevance or Clarity problem,Rule 2: padding is a Relevance problem
+P30-R06,P30,R06,padding,misapplied_dimension,minor,v1 doesn't say whether padding is a Relevance or Clarity problem,Rule 2: padding is a Relevance problem
+P30-R08,P30,R08,padding,misapplied_dimension,minor,v1 doesn't say whether padding is a Relevance or Clarity problem,Rule 2: padding is a Relevance problem

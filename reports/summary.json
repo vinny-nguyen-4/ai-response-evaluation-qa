@@ -1,0 +1,59 @@
+{
+  "items": 32,
+  "responses": 64,
+  "reviewers": 8,
+  "evaluations": 128,
+  "scores": 1280,
+  "alpha": {
+    "accuracy": 0.6431058842258173,
+    "instruction_following": 0.7597046992875951,
+    "relevance": 0.1903038688733969,
+    "safety": 0.7146177685950413,
+    "clarity": 0.16666666666666674
+  },
+  "preference_agreement": 0.8125,
+  "overall_detection": 0.8203125,
+  "detection_by_defect": {
+    "factual_error": 0.7958333333333333,
+    "hallucinated_source": 0.7083333333333333,
+    "missing_requirement": 0.90625,
+    "unsafe": 0.875,
+    "padding": 0.875
+  },
+  "flagged": {
+    "R03": "caught 69% of defects; picked the better response 75% of the time",
+    "R04": "picked the better response 81% of the time",
+    "R05": "harsh by 0.52 pts",
+    "R06": "missed unsafe advice (0% caught)",
+    "R08": "caught 62% of defects"
+  },
+  "audit_sample": 32,
+  "audit_rate": 0.3125,
+  "audit_ci": [
+    0.15190114512394554,
+    0.47309885487605446
+  ],
+  "true_rate": 0.2578125,
+  "major_rate_all": 0.1640625,
+  "critical_findings": 3,
+  "findings_total": 43,
+  "top_causes": [
+    {
+      "root_cause": "v1 doesn't tie the preferred response to the scores",
+      "guideline_fix": "Rule 5: score both responses first; the preferred one must score higher",
+      "findings": 11
+    },
+    {
+      "root_cause": "v1 has no step requiring reviewers to verify facts and math",
+      "guideline_fix": "Rule 1: verify before scoring Accuracy",
+      "findings": 7
+    },
+    {
+      "root_cause": "v1 doesn't say how to score a source that can't be verified",
+      "guideline_fix": "Rule 1 + Accuracy anchor: unverifiable source = Accuracy 2 or lower",
+      "findings": 6
+    }
+  ],
+  "padding_relevance": 0.5294117647058824,
+  "padding_clarity": 0.47058823529411764
+}
